@@ -8,7 +8,9 @@ These notes could contain some mistakes since most of them were written when doi
 
 I plan to have a Blue Team section but the main focus is Red Team.
 
+## Personal Website
 
+{% embed url="https://brunoteixeira1996.github.io/" %}
 
 
 
