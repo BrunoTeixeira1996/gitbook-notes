@@ -18,9 +18,9 @@ curl -d "param1=value&param2=value" https://target.com/something.php  # Send par
 
 Its really important to understand what components \(web server, cms, database, etc\) a web app is using.
 
-* **Wappalyzer** -&gt; [https://www.wappalyzer.com/?gclid=CjwKCAjw95yJBhAgEiwAmRrutK6zgZlDEEVJEiGHxHgqoaxOKXNubEwJAu9Y7FfZEeGAlq9Q8N6OChoCrYIQAvD\_BwE](https://www.wappalyzer.com/?gclid=CjwKCAjw95yJBhAgEiwAmRrutK6zgZlDEEVJEiGHxHgqoaxOKXNubEwJAu9Y7FfZEeGAlq9Q8N6OChoCrYIQAvD_BwE)
-* **Shodan** -&gt; [https://www.shodan.io/](https://www.shodan.io/)
-* **whatweb** -&gt; [https://tools.kali.org/web-applications/whatweb](https://tools.kali.org/web-applications/whatweb)
+* \*\*\*\*[**Wappalyzer**](https://www.wappalyzer.com/?gclid=CjwKCAjw95yJBhAgEiwAmRrutK6zgZlDEEVJEiGHxHgqoaxOKXNubEwJAu9Y7FfZEeGAlq9Q8N6OChoCrYIQAvD_BwE)\*\*\*\*
+* \*\*\*\*[**Shodan**](https://www.shodan.io/)\*\*\*\*
+* \*\*\*\*[**whatweb**](https://tools.kali.org/web-applications/whatweb)\*\*\*\*
 
 ## Fuzzing
 
