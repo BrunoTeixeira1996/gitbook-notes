@@ -10,9 +10,9 @@ The goal with this gitbook is to share my notes about information security.
 
 I plan to have a Blue Team section but the main focus is Red Team.
 
-## Personal Website
 
-{% embed url="https://brunoteixeira1996.github.io/" %}
+
+* [Personal Website](https://brunoteixeira1996.github.io/)
 
 
 
