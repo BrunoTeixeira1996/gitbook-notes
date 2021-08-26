@@ -42,8 +42,6 @@ wfuzz -w wordlist/general/common.txt http://testphp.vulnweb.com/FUZZ.php
 * [https://github.com/xmendez/wfuzz](https://github.com/xmendez/wfuzz)
 * [https://wfuzz.readthedocs.io/en/latest/user/basicusage.html](https://wfuzz.readthedocs.io/en/latest/user/basicusage.html)
 
-
-
 ## Tools
 
 ### [Gobuster](https://github.com/OJ/gobuster)
