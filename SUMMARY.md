@@ -12,7 +12,7 @@
   * [XXE](red-team/web/xxe.md)
   * [LFI/RFI](red-team/web/lfi-rfi.md)
   * [Session Management](red-team/web/session-management.md)
-  * [Server Side Template Injection](red-team/web/server-side-template-injection.md)
+  * [SSTI](red-team/web/server-side-template-injection.md)
 
 ## Blue Team
 
