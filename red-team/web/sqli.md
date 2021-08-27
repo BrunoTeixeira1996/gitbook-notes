@@ -1,7 +1,5 @@
 # SQLi
 
-## What is SQLi ?
-
 SQL Injection is a web security vulnerability that allows an attacker to interfer with the queries that an application makes to its database.
 
 It generally allows an attacker to view data that they are not normally able to retrieve. This might include data belonging to other users or any other data that the application itself is able to access.
@@ -118,5 +116,8 @@ sqlmap -u "http://target.com/login.php?id=1" -D DB_NAME -T TB_NAME -C "col1,col2
 sqlmap -u "http://target.com/login.php?id=1" -D DB_NAME --dump # Dump the database
 ```
 
+## References
 
+* [https://tools.kali.org/vulnerability-analysis/sqlmap](https://tools.kali.org/vulnerability-analysis/sqlmap)
+* [https://gitbook.seguranca-informatica.pt/cheat-sheet-1/web/sql-injection](https://gitbook.seguranca-informatica.pt/cheat-sheet-1/web/sql-injection)
 
