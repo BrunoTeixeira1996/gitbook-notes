@@ -1,3 +1,7 @@
+---
+description: File Upload Bypass
+---
+
 # File Upload Bypass
 
 File Upload Bypass allows attackers to upload malicious files to the web server, which can then be executed by other users or the server itself. The main goal is to bypass filters applied by the web app
