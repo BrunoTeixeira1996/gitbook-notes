@@ -8,7 +8,7 @@ SQL Injection is a web security vulnerability that allows an attacker to interfe
 
 It generally allows an attacker to view data that they are not normally able to retrieve. This might include data belonging to other users or any other data that the application itself is able to access.
 
-To test SQLi, we will put special characters into the input fields and observe errors returned by the application. 
+To test SQLi, we will put special characters into the input fields and observe errors returned by the application.&#x20;
 
 ```bash
 '
@@ -25,7 +25,7 @@ To test SQLi, we will put special characters into the input fields and observe e
 SELECT @@version  # Determine what the database information is
 ```
 
-## Manual 
+## Manual&#x20;
 
 ```bash
  http://target/comment.php?id=1'
@@ -63,18 +63,18 @@ id=1; IF SYSTEM_USER='sa' WAIT FOR DELAY '00:00:15'  # Resulting query (verify i
 
 ## Union Attack
 
- _When an application is vulnerable to SQL injection and the results of the query are returned within the application's responses, the `UNION` keyword can be used to retrieve data from other tables within the database. This results in an SQL injection UNION attack._
+&#x20;_When an application is vulnerable to SQL injection and the results of the query are returned within the application's responses, the `UNION` keyword can be used to retrieve data from other tables within the database. This results in an SQL injection UNION attack._
 
- _The `UNION` keyword lets you execute one or more additional `SELECT` queries and append the results to the original query. For example:_
+&#x20;_The `UNION` keyword lets you execute one or more additional `SELECT` queries and append the results to the original query. For example:_
 
- _`SELECT a, b FROM table1 UNION SELECT c, d FROM table2`_
+&#x20;_ `SELECT a, b FROM table1 UNION SELECT c, d FROM table2`_
 
- _This SQL query will return a single result set with two columns, containing values from columns `a` and `b` in `table1` and columns `c` and `d` in `table2`_
+&#x20;_This SQL query will return a single result set with two columns, containing values from columns `a` and `b` in `table1` and columns `c` and `d` in `table2`_
 
- For a `UNION` query to work, two key requirements must be met:
+&#x20;For a `UNION` query to work, two key requirements must be met:
 
-*  **The individual queries must return the same number of columns.**
-*  **The data types in each column must be compatible between the individual queries.**
+* &#x20;**The individual queries must return the same number of columns.**
+* &#x20;**The data types in each column must be compatible between the individual queries.**
 
 
 
@@ -124,4 +124,3 @@ sqlmap -u "http://target.com/login.php?id=1" -D DB_NAME --dump # Dump the databa
 
 * [https://tools.kali.org/vulnerability-analysis/sqlmap](https://tools.kali.org/vulnerability-analysis/sqlmap)
 * [https://gitbook.seguranca-informatica.pt/cheat-sheet-1/web/sql-injection](https://gitbook.seguranca-informatica.pt/cheat-sheet-1/web/sql-injection)
-

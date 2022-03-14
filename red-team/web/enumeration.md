@@ -6,7 +6,7 @@ description: Enum is everything
 
 ## cURL
 
-Some useful cURL commands to interact with a web app 
+Some useful cURL commands to interact with a web app&#x20;
 
 ```bash
 curl -X OPTIONS target.com  # Find all supported options for "target.com"
@@ -16,11 +16,11 @@ curl -d "param1=value&param2=value" https://target.com/something.php  # Send par
 
 ## Web app components
 
-Its really important to understand what components \(web server, cms, database, etc\) a web app is using.
+Its really important to understand what components (web server, cms, database, etc) a web app is using.
 
-* \*\*\*\*[**Wappalyzer**](https://www.wappalyzer.com/?gclid=CjwKCAjw95yJBhAgEiwAmRrutK6zgZlDEEVJEiGHxHgqoaxOKXNubEwJAu9Y7FfZEeGAlq9Q8N6OChoCrYIQAvD_BwE)\*\*\*\*
-* \*\*\*\*[**Shodan**](https://www.shodan.io/)\*\*\*\*
-* \*\*\*\*[**whatweb**](https://tools.kali.org/web-applications/whatweb)\*\*\*\*
+* ****[**Wappalyzer**](https://www.wappalyzer.com/?gclid=CjwKCAjw95yJBhAgEiwAmRrutK6zgZlDEEVJEiGHxHgqoaxOKXNubEwJAu9Y7FfZEeGAlq9Q8N6OChoCrYIQAvD\_BwE)****
+* ****[**Shodan**](https://www.shodan.io)****
+* ****[**whatweb**](https://tools.kali.org/web-applications/whatweb)****
 
 ## Fuzzing
 
@@ -81,4 +81,3 @@ python moodlescan.py -u http://example.org/
 ```bash
 wpscan --url example.org
 ```
-
