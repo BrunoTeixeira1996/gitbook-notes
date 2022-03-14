@@ -13,6 +13,12 @@
   * [LFI/RFI](red-team/web/lfi-rfi.md)
   * [Session Management](red-team/web/session-management.md)
   * [SSTI](red-team/web/server-side-template-injection.md)
+* [Windows](red-team/windows/README.md)
+  * [Enumeration](red-team/windows/enumeration.md)
+  * [Active Directory](red-team/windows/active-directory/README.md)
+    * [Print Nightmare](red-team/windows/active-directory/print-nightmare.md)
+    * [NTLM Relay](red-team/windows/active-directory/ntlm-relay.md)
+* [Linux](red-team/linux.md)
+* [Enumeration](red-team/enumeration.md)
 
 ## Blue Team
-

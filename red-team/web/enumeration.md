@@ -38,6 +38,14 @@ wfuzz -w wordlist/general/common.txt http://testphp.vulnweb.com/FUZZ
 wfuzz -w wordlist/general/common.txt http://testphp.vulnweb.com/FUZZ.php
 ```
 
+* &#x20;Fuzz subdomains via Host Header
+
+```
+`wfuzz -c -f sub-fighter -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt  -u 'http://test.com' -H "Host: FUZZ.test.com" --hw 28`
+```
+
+
+
 * [https://owasp.org/www-community/Fuzzing](https://owasp.org/www-community/Fuzzing)
 * [https://github.com/xmendez/wfuzz](https://github.com/xmendez/wfuzz)
 * [https://wfuzz.readthedocs.io/en/latest/user/basicusage.html](https://wfuzz.readthedocs.io/en/latest/user/basicusage.html)
